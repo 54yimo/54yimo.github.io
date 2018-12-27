@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://blog.54yimo.cc/tags/index.html</loc>
+    
+    <lastmod>2018-12-27T08:03:10.228Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.54yimo.cc/categories/index.html</loc>
+    
+    <lastmod>2018-12-27T08:02:46.136Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.54yimo.cc/404.html</loc>
+    
+    <lastmod>2018-12-27T07:23:34.210Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.54yimo.cc/post/git-command/</loc>
+    
+    <lastmod>2018-12-11T02:53:24.950Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.54yimo.cc/post/hello-world/</loc>
+    
+    <lastmod>2018-12-11T02:34:35.652Z</lastmod>
+    
+  </url>
+  
+</urlset>
