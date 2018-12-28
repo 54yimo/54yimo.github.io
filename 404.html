@@ -18,7 +18,7 @@
 <head>
   <script type="text/javascript">
     var host = "blog.54yimo.cc";
-    if ((host == window.location.host) && (window.location.protocol != "https"))
+    if ((host == window.location.host) && (!window.location.protocol.startsWith("https")))
       window.location.protocol = "https";
   </script>
   <meta charset="UTF-8">
