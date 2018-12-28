@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Linux 下常用命令]]></title>
     <url>%2Fpost%2Flinux_common_shell%2F</url>
-    <content type="text"><![CDATA[Linuxrgz 压缩格式12345# 打包xz -zk FILENAME -o &gt; PACKNAME.rgz# 解包7z x *.rgz cpio12345# 打包echo "FILEPATH1\nFILEPATH2\n..." | cpio -o -H newc &gt; out.cpio# 解包cpio -idv &lt; CPIOFILE]]></content>
+    <content type="text"><![CDATA[rgz 压缩格式12345# 打包xz -zk FILENAME -o &gt; PACKNAME.rgz# 解包7z x *.rgz cpio12345# 打包echo "FILEPATH1\nFILEPATH2\n..." | cpio -o -H newc &gt; out.cpio# 解包cpio -idv &lt; CPIOFILE]]></content>
       <categories>
         <category>Linux</category>
       </categories>
