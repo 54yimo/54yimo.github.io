@@ -442,6 +442,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/linux_common_shell/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/post/linux_common_shell/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -879,6 +889,31 @@ cpio# 打包echo "FILEPATH1\nFILEPATH2\n..." | cpio -o -H newc &gt; out.cpio# �
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  <script>
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '81Vp3vNggF7LVnUI3aICYdpa-gzGzoHsz',
+        appKey: '7EKeSLdqVzEndI6BaRK0b7ED',
+        placeholder: '๑乛◡乛๑卡在了奇怪的地方',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'15' || 10,
+        visitor: false
+    });
+  </script>
 
 
 
