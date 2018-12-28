@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Code Snippet]]></title>
-    <url>%2Fpost%2Fcodesnippet%2F</url>
+    <title><![CDATA[Linux 下常用命令]]></title>
+    <url>%2Fpost%2Flinux_common_shell%2F</url>
     <content type="text"><![CDATA[Linuxrgz 压缩格式12345# 打包xz -zk FILENAME -o &gt; PACKNAME.rgz# 解包7z x *.rgz cpio12345# 打包echo "FILEPATH1\nFILEPATH2\n..." | cpio -o -H newc &gt; out.cpio# 解包cpio -idv &lt; CPIOFILE]]></content>
       <categories>
-        <category>notebook</category>
+        <category>Linux</category>
       </categories>
       <tags>
-        <tag>snippet</tag>
+        <tag>常用命令</tag>
+        <tag>shell</tag>
         <tag>linux</tag>
       </tags>
   </entry>
